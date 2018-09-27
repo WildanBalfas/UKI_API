@@ -1,0 +1,25 @@
+{
+  "name": "UKI-test",
+  "version": "1.0.0",
+  "description": "UKI_API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "NodeJS",
+    "Restify",
+    "MongoDB"
+  ],
+  "author": "wildan",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.1.6",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
